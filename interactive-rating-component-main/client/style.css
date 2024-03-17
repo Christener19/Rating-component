@@ -28,9 +28,12 @@ main {
 .please-txt {
     color: var(--txtGray);
 }
-.number-container {
+ul {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
 }
 .number {
     display: flex;
@@ -60,7 +63,17 @@ main {
     background-color: var(--white);
     color: var(--orange);
 }
-
+.second {
+    text-align: center;
+}
+.you-selected {
+    padding: 4px 19px;
+    color: var(--orange);
+    background-color: var(--ratingBgGray);
+    border-radius: 22.5px;
+    width: fit-content;
+    margin: 25px auto;
+   }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
